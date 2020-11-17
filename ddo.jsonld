@@ -1,6 +1,6 @@
 {
   "@context": "https://www.w3.org/ns/did/v1",
-  "id": "did:btcr:...",
+  "id": "did:btcr:x6rs-nr8q-qlmg-eld",
   "authentication": [{
     "id": "did:btcr:...#keys-1",
     "type": "Ed25519VerificationKey2018",
@@ -8,7 +8,7 @@
     "publicKeyBase58": "..."
   }],
   "service": [{
-    "id":"did:btcr:...#vcs",
+    "id":"did:btcr:x6rs-nr8q-qlmg-eld#vcs",
     "type": "VerifiableCredentialService",
     "serviceEndpoint": "https://example.com/vc/"
   }]
