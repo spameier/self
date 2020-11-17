@@ -1,1 +1,15 @@
-{}
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:btcr:...",
+  "authentication": [{
+    "id": "did:btcr:...#keys-1",
+    "type": "Ed25519VerificationKey2018",
+    "controller": "did:btcr:...",
+    "publicKeyBase58": "..."
+  }],
+  "service": [{
+    "id":"did:btcr:...#vcs",
+    "type": "VerifiableCredentialService",
+    "serviceEndpoint": "https://example.com/vc/"
+  }]
+}
